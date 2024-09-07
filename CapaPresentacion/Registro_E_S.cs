@@ -61,5 +61,9 @@ namespace CapaPresentacion
             }
         }
 
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -16,5 +16,15 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void cerrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

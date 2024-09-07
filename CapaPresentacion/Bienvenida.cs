@@ -35,8 +35,8 @@ namespace CapaPresentacion
 
         private void administradorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Administrador Administrador = new Administrador();
-            Administrador.Show();
+            Login Login = new Login();
+            Login.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

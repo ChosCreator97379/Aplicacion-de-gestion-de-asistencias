@@ -21,5 +21,26 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string claveCorrecta = "1234";
+
+            // Verificar si la clave ingresada es correcta
+            if (txtClave.Text == claveCorrecta)
+            {
+                // Abrir el nuevo formulario
+                Administrador Administrador = new Administrador();
+                Administrador.Show();
+
+                // Cerrar el formulario de login
+                this.Hide();  // Esconder en lugar de cerrar para no terminar la aplicación
+            }
+            else
+            {
+                // Mensaje de error si la clave es incorrecta
+                MessageBox.Show("Clave incorrecta. Intente nuevamente.", "Error de autenticación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

@@ -31,13 +31,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Hora = new System.Windows.Forms.DateTimePicker();
+            this.Fecha = new System.Windows.Forms.DateTimePicker();
+            this.txtTipoRegistro = new System.Windows.Forms.ComboBox();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtArea = new System.Windows.Forms.TextBox();
@@ -50,13 +49,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btnBuscarRegistro = new System.Windows.Forms.Button();
+            this.txtBusqueda = new System.Windows.Forms.TextBox();
+            this.txtTipoBusqueda = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -78,8 +77,7 @@
             // archivoToolStripMenuItem
             // 
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.inicioToolStripMenuItem,
-            this.cerrarToolStripMenuItem});
+            this.inicioToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
@@ -87,23 +85,18 @@
             // inicioToolStripMenuItem
             // 
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.inicioToolStripMenuItem.Text = "Inicio";
-            // 
-            // cerrarToolStripMenuItem
-            // 
-            this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
-            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
-            this.cerrarToolStripMenuItem.Text = "Cerrar";
+            this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.groupBox1.Controls.Add(this.dateTimePicker2);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.Hora);
+            this.groupBox1.Controls.Add(this.Fecha);
+            this.groupBox1.Controls.Add(this.txtTipoRegistro);
+            this.groupBox1.Controls.Add(this.btnNuevo);
+            this.groupBox1.Controls.Add(this.btnGuardar);
             this.groupBox1.Controls.Add(this.btnBuscar);
             this.groupBox1.Controls.Add(this.txtApellido);
             this.groupBox1.Controls.Add(this.txtArea);
@@ -124,62 +117,62 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registro";
             // 
-            // dateTimePicker2
+            // Hora
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(381, 173);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(94, 25);
-            this.dateTimePicker2.TabIndex = 15;
-            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            this.Hora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Hora.Location = new System.Drawing.Point(381, 173);
+            this.Hora.Name = "Hora";
+            this.Hora.Size = new System.Drawing.Size(94, 25);
+            this.Hora.TabIndex = 15;
+            this.Hora.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
-            // dateTimePicker1
+            // Fecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(175, 173);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
-            this.dateTimePicker1.TabIndex = 14;
+            this.Fecha.Location = new System.Drawing.Point(175, 173);
+            this.Fecha.Name = "Fecha";
+            this.Fecha.Size = new System.Drawing.Size(200, 25);
+            this.Fecha.TabIndex = 14;
             // 
-            // comboBox1
+            // txtTipoRegistro
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.txtTipoRegistro.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtTipoRegistro.FormattingEnabled = true;
+            this.txtTipoRegistro.Items.AddRange(new object[] {
             "Entrada",
             "Salida"});
-            this.comboBox1.Location = new System.Drawing.Point(33, 173);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(136, 25);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "Tipo de Registro";
+            this.txtTipoRegistro.Location = new System.Drawing.Point(33, 173);
+            this.txtTipoRegistro.Name = "txtTipoRegistro";
+            this.txtTipoRegistro.Size = new System.Drawing.Size(136, 25);
+            this.txtTipoRegistro.TabIndex = 13;
+            this.txtTipoRegistro.Text = "Tipo de Registro";
             // 
-            // button3
+            // btnNuevo
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button3.Location = new System.Drawing.Point(114, 217);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Nuevo";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnNuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevo.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnNuevo.Location = new System.Drawing.Point(114, 217);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(75, 23);
+            this.btnNuevo.TabIndex = 12;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnGuardar
             // 
-            this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button2.Location = new System.Drawing.Point(33, 217);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Guardar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnGuardar.BackColor = System.Drawing.Color.Lime;
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnGuardar.Location = new System.Drawing.Point(33, 217);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.TabIndex = 11;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
             // 
             // btnBuscar
             // 
@@ -299,9 +292,9 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.btnBuscarRegistro);
+            this.groupBox2.Controls.Add(this.txtBusqueda);
+            this.groupBox2.Controls.Add(this.txtTipoBusqueda);
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.HighlightText;
@@ -312,43 +305,43 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Registro de Asistencias";
             // 
-            // button4
+            // btnBuscarRegistro
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button4.Location = new System.Drawing.Point(839, 35);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnBuscarRegistro.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBuscarRegistro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscarRegistro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarRegistro.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnBuscarRegistro.Location = new System.Drawing.Point(839, 35);
+            this.btnBuscarRegistro.Name = "btnBuscarRegistro";
+            this.btnBuscarRegistro.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarRegistro.TabIndex = 16;
+            this.btnBuscarRegistro.Text = "Buscar";
+            this.btnBuscarRegistro.UseVisualStyleBackColor = false;
             // 
-            // textBox6
+            // txtBusqueda
             // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(533, 35);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(300, 25);
-            this.textBox6.TabIndex = 16;
+            this.txtBusqueda.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBusqueda.Location = new System.Drawing.Point(533, 35);
+            this.txtBusqueda.Name = "txtBusqueda";
+            this.txtBusqueda.Size = new System.Drawing.Size(300, 25);
+            this.txtBusqueda.TabIndex = 16;
             // 
-            // comboBox2
+            // txtTipoBusqueda
             // 
-            this.comboBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.txtTipoBusqueda.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtTipoBusqueda.FormattingEnabled = true;
+            this.txtTipoBusqueda.Items.AddRange(new object[] {
             "ID",
             "Nombre",
             "Hora de Entrada",
             "Hora de Salida",
             "Fecha"});
-            this.comboBox2.Location = new System.Drawing.Point(391, 35);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(136, 25);
-            this.comboBox2.TabIndex = 16;
-            this.comboBox2.Text = "Tipo de Busqueda";
+            this.txtTipoBusqueda.Location = new System.Drawing.Point(391, 35);
+            this.txtTipoBusqueda.Name = "txtTipoBusqueda";
+            this.txtTipoBusqueda.Size = new System.Drawing.Size(136, 25);
+            this.txtTipoBusqueda.TabIndex = 16;
+            this.txtTipoBusqueda.Text = "Tipo de Busqueda";
             // 
             // dataGridView1
             // 
@@ -361,8 +354,8 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Controls.Add(this.button5);
+            this.groupBox3.Controls.Add(this.btnEditar);
+            this.groupBox3.Controls.Add(this.btnEliminar);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.groupBox3.Location = new System.Drawing.Point(545, 56);
@@ -372,33 +365,33 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Opciones";
             // 
-            // button6
+            // btnEditar
             // 
-            this.button6.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button6.Location = new System.Drawing.Point(83, 88);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(119, 106);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "Editar";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnEditar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnEditar.Location = new System.Drawing.Point(83, 88);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(119, 106);
+            this.btnEditar.TabIndex = 17;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnEliminar
             // 
-            this.button5.BackColor = System.Drawing.Color.Red;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button5.Location = new System.Drawing.Point(219, 88);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(116, 106);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Eliminar";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnEliminar.BackColor = System.Drawing.Color.Red;
+            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnEliminar.Location = new System.Drawing.Point(219, 88);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(116, 106);
+            this.btnEliminar.TabIndex = 16;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
             // 
             // Registro_E_S
             // 
@@ -433,7 +426,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -447,17 +439,17 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DateTimePicker Hora;
+        private System.Windows.Forms.DateTimePicker Fecha;
+        private System.Windows.Forms.ComboBox txtTipoRegistro;
+        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnBuscarRegistro;
+        private System.Windows.Forms.TextBox txtBusqueda;
+        private System.Windows.Forms.ComboBox txtTipoBusqueda;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }
