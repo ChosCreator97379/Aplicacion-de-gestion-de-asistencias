@@ -52,11 +52,23 @@
     <Compile Include="Administrador.Designer.cs">
       <DependentUpon>Administrador.cs</DependentUpon>
     </Compile>
+    <Compile Include="Añadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Añadir.Designer.cs">
+      <DependentUpon>Añadir.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bienvenida.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Bienvenida.Designer.cs">
       <DependentUpon>Bienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar.Designer.cs">
+      <DependentUpon>Editar.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -75,8 +87,14 @@
     <EmbeddedResource Include="Administrador.resx">
       <DependentUpon>Administrador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Añadir.resx">
+      <DependentUpon>Añadir.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bienvenida.resx">
       <DependentUpon>Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar.resx">
+      <DependentUpon>Editar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

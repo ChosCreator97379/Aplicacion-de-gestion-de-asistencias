@@ -26,5 +26,18 @@ namespace CapaPresentacion
         {
             this.Close();
         }
+
+        private void btnAñadirVenana_Click(object sender, EventArgs e)
+        {
+            Añadir  añadir = new Añadir();
+            añadir.Show();
+
+        }
+
+        private void btnEditarVentana_Click(object sender, EventArgs e)
+        {
+            Editar editar = new Editar();
+            editar.Show();
+        }
     }
 }

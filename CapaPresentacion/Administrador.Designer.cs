@@ -28,37 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Hora = new System.Windows.Forms.DateTimePicker();
-            this.Fecha = new System.Windows.Forms.DateTimePicker();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.btnGuardar = new System.Windows.Forms.Button();
-            this.txtApellido = new System.Windows.Forms.TextBox();
-            this.txtArea = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtCargo = new System.Windows.Forms.TextBox();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.HoraEditar = new System.Windows.Forms.DateTimePicker();
-            this.FechaEditar = new System.Windows.Forms.DateTimePicker();
-            this.btnNuevoEditar = new System.Windows.Forms.Button();
-            this.btnGuardarEditar = new System.Windows.Forms.Button();
-            this.txtApellidoEditar = new System.Windows.Forms.TextBox();
-            this.txtAreaEditar = new System.Windows.Forms.TextBox();
-            this.txtNombreEditar = new System.Windows.Forms.TextBox();
-            this.txtCargoEditar = new System.Windows.Forms.TextBox();
-            this.txtIdEditar = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnBuscarEmpleado = new System.Windows.Forms.Button();
             this.txtBusqueda = new System.Windows.Forms.TextBox();
@@ -67,13 +36,14 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.btnAñadirVenana = new System.Windows.Forms.Button();
+            this.btnEditarVentana = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
+<<<<<<< Updated upstream
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.DarkSlateGray;
@@ -431,18 +401,22 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "ID";
             // 
+=======
+>>>>>>> Stashed changes
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.groupBox3.Controls.Add(this.btnEditarVentana);
+            this.groupBox3.Controls.Add(this.btnAñadirVenana);
             this.groupBox3.Controls.Add(this.btnBuscarEmpleado);
             this.groupBox3.Controls.Add(this.txtBusqueda);
             this.groupBox3.Controls.Add(this.txtTipoBusqueda);
             this.groupBox3.Controls.Add(this.dataGridView1);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.groupBox3.Location = new System.Drawing.Point(12, 333);
+            this.groupBox3.Location = new System.Drawing.Point(12, 39);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1346, 346);
+            this.groupBox3.Size = new System.Drawing.Size(1346, 698);
             this.groupBox3.TabIndex = 17;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Lista de Empleados";
@@ -490,7 +464,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(18, 76);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1310, 252);
+            this.dataGridView1.Size = new System.Drawing.Size(1310, 599);
             this.dataGridView1.TabIndex = 0;
             // 
             // menuStrip1
@@ -520,6 +494,36 @@
             this.inicioToolStripMenuItem.Text = "Inicio";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
             // 
+            // btnAñadirVenana
+            // 
+            this.btnAñadirVenana.BackColor = System.Drawing.Color.Yellow;
+            this.btnAñadirVenana.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAñadirVenana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAñadirVenana.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnAñadirVenana.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnAñadirVenana.Location = new System.Drawing.Point(996, 35);
+            this.btnAñadirVenana.Name = "btnAñadirVenana";
+            this.btnAñadirVenana.Size = new System.Drawing.Size(75, 23);
+            this.btnAñadirVenana.TabIndex = 17;
+            this.btnAñadirVenana.Text = "Añadir";
+            this.btnAñadirVenana.UseVisualStyleBackColor = false;
+            this.btnAñadirVenana.Click += new System.EventHandler(this.btnAñadirVenana_Click);
+            // 
+            // btnEditarVentana
+            // 
+            this.btnEditarVentana.BackColor = System.Drawing.Color.Yellow;
+            this.btnEditarVentana.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditarVentana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditarVentana.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnEditarVentana.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnEditarVentana.Location = new System.Drawing.Point(1161, 34);
+            this.btnEditarVentana.Name = "btnEditarVentana";
+            this.btnEditarVentana.Size = new System.Drawing.Size(75, 23);
+            this.btnEditarVentana.TabIndex = 18;
+            this.btnEditarVentana.Text = "Editar";
+            this.btnEditarVentana.UseVisualStyleBackColor = false;
+            this.btnEditarVentana.Click += new System.EventHandler(this.btnEditarVentana_Click);
+            // 
             // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -527,17 +531,11 @@
             this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Administrador";
             this.Text = "Administrador";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -549,45 +547,15 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker Hora;
-        private System.Windows.Forms.DateTimePicker Fecha;
-        private System.Windows.Forms.Button btnNuevo;
-        private System.Windows.Forms.Button btnGuardar;
-        private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.TextBox txtArea;
-        private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtCargo;
-        private System.Windows.Forms.TextBox txtId;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DateTimePicker HoraEditar;
-        private System.Windows.Forms.DateTimePicker FechaEditar;
-        private System.Windows.Forms.Button btnNuevoEditar;
-        private System.Windows.Forms.Button btnGuardarEditar;
-        private System.Windows.Forms.TextBox txtApellidoEditar;
-        private System.Windows.Forms.TextBox txtAreaEditar;
-        private System.Windows.Forms.TextBox txtNombreEditar;
-        private System.Windows.Forms.TextBox txtCargoEditar;
-        private System.Windows.Forms.TextBox txtIdEditar;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnBuscarEmpleado;
         private System.Windows.Forms.TextBox txtBusqueda;
         private System.Windows.Forms.ComboBox txtTipoBusqueda;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
+        private System.Windows.Forms.Button btnEditarVentana;
+        private System.Windows.Forms.Button btnAñadirVenana;
     }
 }
