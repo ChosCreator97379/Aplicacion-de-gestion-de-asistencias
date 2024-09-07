@@ -14,6 +14,7 @@ namespace CapaPresentacion
     public partial class Registro_E_S : Form
     {
         private EmpleadoCN empleadoCN = new EmpleadoCN();
+        private AsistenciaCN asistenciaCN = new AsistenciaCN();
         public Registro_E_S()
         {
             InitializeComponent();
@@ -64,6 +65,44 @@ namespace CapaPresentacion
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            int idEmpleado = Convert.ToInt32(txtId.Text); // ID del empleado que buscaste
+            DateTime fecha = Fecha.Value; // Fecha seleccionada
+            TimeSpan hora = Hora.Value.TimeOfDay; // Hora seleccionada
+            string tipoRegistro = txtTipoRegistro.SelectedItem.ToString(); // 'Entrada' o 'Salida'
+
+            asistenciaCN.GuardarAsistencia(idEmpleado, fecha, hora, tipoRegistro);
+
+            MessageBox.Show("Asistencia registrada correctamente.");
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataTable dt = asistenciaCN.ObtenerAsistencias();
+                if (dt != null && dt.Rows.Count > 0)
+                {
+                    dataGridView.DataSource = dt;
+                }
+                else
+                {
+                    dataGridView.DataSource = null;
+                    MessageBox.Show("No se encontraron datos para mostrar.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al obtener los datos: {ex.Message}");
+            }
+        }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

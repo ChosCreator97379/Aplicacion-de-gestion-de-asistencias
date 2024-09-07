@@ -332,7 +332,7 @@
             // txtApellidoEditar
             // 
             this.txtApellidoEditar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidoEditar.Location = new System.Drawing.Point(320, 91);
+            this.txtApellidoEditar.Location = new System.Drawing.Point(322, 89);
             this.txtApellidoEditar.Name = "txtApellidoEditar";
             this.txtApellidoEditar.Size = new System.Drawing.Size(140, 25);
             this.txtApellidoEditar.TabIndex = 9;
@@ -495,6 +495,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cerrarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -515,7 +516,7 @@
             // inicioToolStripMenuItem
             // 
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.inicioToolStripMenuItem.Text = "Inicio";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
             // 

@@ -26,13 +26,7 @@ namespace CapaDato
                 string cadenaCnx = generadorCadenaCnx.ConnectionString;
 
                 // Instanciar un objeto de conexion
-                SqlConnection cnx = new SqlConnection(cadenaCnx);
-
-                // Abrir la conexión
-                cnx.Open();
-
-                // Retornar el nuevo objeto de conexion
-                return cnx;
+                return new SqlConnection(cadenaCnx);
             }
             catch (SqlException ex)
             {
