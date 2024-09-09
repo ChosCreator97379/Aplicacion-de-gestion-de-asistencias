@@ -14,5 +14,11 @@ namespace CapaNegocio
         {
             return CapaDato.EmpleadoCD.BuscarEmpleadoPorID(id);
         }
+
+        public static DataTable ObtenerInformacionEmpleados()
+        {
+            EmpleadoCD empleadoCD = new EmpleadoCD();
+            return empleadoCD.ObtenerInformacionEmpleados();
+        }
     }
 }
