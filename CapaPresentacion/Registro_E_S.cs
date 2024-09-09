@@ -65,6 +65,8 @@ namespace CapaPresentacion
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+            Bienvenida Bienvenida = new Bienvenida();
+            Bienvenida.Show();
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)

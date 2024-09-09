@@ -30,10 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registroDeEntradaYSalidaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.administradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.registroDeEntradaYSalidaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.administradorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -42,7 +43,9 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem});
+            this.archivoToolStripMenuItem,
+            this.registroDeEntradaYSalidaToolStripMenuItem1,
+            this.administradorToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1370, 24);
@@ -52,25 +55,10 @@
             // archivoToolStripMenuItem
             // 
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registroDeEntradaYSalidaToolStripMenuItem,
-            this.administradorToolStripMenuItem});
+            this.salirToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // registroDeEntradaYSalidaToolStripMenuItem
-            // 
-            this.registroDeEntradaYSalidaToolStripMenuItem.Name = "registroDeEntradaYSalidaToolStripMenuItem";
-            this.registroDeEntradaYSalidaToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
-            this.registroDeEntradaYSalidaToolStripMenuItem.Text = "Registro de Entrada y Salida";
-            this.registroDeEntradaYSalidaToolStripMenuItem.Click += new System.EventHandler(this.registroDeEntradaYSalidaToolStripMenuItem_Click);
-            // 
-            // administradorToolStripMenuItem
-            // 
-            this.administradorToolStripMenuItem.Name = "administradorToolStripMenuItem";
-            this.administradorToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
-            this.administradorToolStripMenuItem.Text = "Administrador";
-            this.administradorToolStripMenuItem.Click += new System.EventHandler(this.administradorToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -86,13 +74,35 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(530, 201);
+            this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.X;
+            this.pictureBox1.Location = new System.Drawing.Point(482, 230);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(295, 182);
+            this.pictureBox1.Size = new System.Drawing.Size(350, 350);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // registroDeEntradaYSalidaToolStripMenuItem1
+            // 
+            this.registroDeEntradaYSalidaToolStripMenuItem1.Name = "registroDeEntradaYSalidaToolStripMenuItem1";
+            this.registroDeEntradaYSalidaToolStripMenuItem1.Size = new System.Drawing.Size(164, 20);
+            this.registroDeEntradaYSalidaToolStripMenuItem1.Text = "Registro de Entrada y Salida";
+            this.registroDeEntradaYSalidaToolStripMenuItem1.Click += new System.EventHandler(this.registroDeEntradaYSalidaToolStripMenuItem1_Click);
+            // 
+            // administradorToolStripMenuItem1
+            // 
+            this.administradorToolStripMenuItem1.Name = "administradorToolStripMenuItem1";
+            this.administradorToolStripMenuItem1.Size = new System.Drawing.Size(95, 20);
+            this.administradorToolStripMenuItem1.Text = "Administrador";
+            this.administradorToolStripMenuItem1.Click += new System.EventHandler(this.administradorToolStripMenuItem1_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // Bienvenida
             // 
@@ -119,10 +129,11 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registroDeEntradaYSalidaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem administradorToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem registroDeEntradaYSalidaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem administradorToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }
 

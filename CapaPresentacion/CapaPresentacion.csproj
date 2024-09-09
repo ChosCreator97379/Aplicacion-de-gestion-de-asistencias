@@ -52,12 +52,6 @@
     <Compile Include="Administrador.Designer.cs">
       <DependentUpon>Administrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Añadir.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Añadir.Designer.cs">
-      <DependentUpon>Añadir.cs</DependentUpon>
-    </Compile>
     <Compile Include="Bienvenida.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,9 +80,6 @@
     </Compile>
     <EmbeddedResource Include="Administrador.resx">
       <DependentUpon>Administrador.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Añadir.resx">
-      <DependentUpon>Añadir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bienvenida.resx">
       <DependentUpon>Bienvenida.cs</DependentUpon>
@@ -136,6 +127,9 @@
       <Project>{e39cd59c-5556-41ef-ae95-b07d428ff247}</Project>
       <Name>CapaNegocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

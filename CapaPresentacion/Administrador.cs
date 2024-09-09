@@ -17,27 +17,15 @@ namespace CapaPresentacion
             InitializeComponent();
         }
 
-        private void cerrarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnEditar_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void btnAñadirVenana_Click(object sender, EventArgs e)
-        {
-            Añadir  añadir = new Añadir();
-            añadir.Show();
-
-        }
-
-        private void btnEditarVentana_Click(object sender, EventArgs e)
-        {
-            Editar editar = new Editar();
-            editar.Show();
+            Editar Editar = new Editar();
+            Editar.Show();
         }
     }
 }
