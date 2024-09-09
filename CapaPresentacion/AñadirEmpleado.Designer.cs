@@ -63,6 +63,7 @@
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -276,18 +277,18 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(502, 204);
+            this.label13.Location = new System.Drawing.Point(438, 259);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(115, 22);
+            this.label13.Size = new System.Drawing.Size(232, 22);
             this.label13.TabIndex = 21;
-            this.label13.Text = "INSTITUTO";
+            this.label13.Text = "CENTRO DE ESTUDIOS";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(502, 255);
+            this.label14.Location = new System.Drawing.Point(507, 202);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(105, 22);
             this.label14.TabIndex = 22;
@@ -356,7 +357,7 @@
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(651, 255);
+            this.textBox15.Location = new System.Drawing.Point(691, 259);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(175, 22);
             this.textBox15.TabIndex = 31;
@@ -377,6 +378,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.groupBox1.Controls.Add(this.textBox16);
             this.groupBox1.Controls.Add(this.textBox13);
             this.groupBox1.Controls.Add(this.textBox15);
             this.groupBox1.Controls.Add(this.button1);
@@ -397,6 +399,13 @@
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(396, 363);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(274, 22);
+            this.textBox16.TabIndex = 34;
             // 
             // AñadirEmpleado
             // 
@@ -472,5 +481,6 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox textBox16;
     }
 }
