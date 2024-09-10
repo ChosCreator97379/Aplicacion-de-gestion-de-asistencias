@@ -29,8 +29,11 @@
         private void InitializeComponent()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
 =======
+=======
+>>>>>>> parent of ee59dab (añadir)
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Hora = new System.Windows.Forms.DateTimePicker();
             this.Fecha = new System.Windows.Forms.DateTimePicker();
@@ -46,6 +49,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+>>>>>>> parent of ee59dab (añadir)
+=======
 >>>>>>> parent of ee59dab (añadir)
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
@@ -492,6 +498,7 @@
             // dataGridView1
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
@@ -507,6 +514,8 @@
             this.dataGridView.Size = new System.Drawing.Size(1310, 582);
             this.dataGridView.TabIndex = 0;
 =======
+=======
+>>>>>>> parent of ee59dab (añadir)
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(18, 76);
             this.dataGridView1.Name = "dataGridView1";
@@ -538,6 +547,9 @@
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.inicioToolStripMenuItem.Text = "Inicio";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
+<<<<<<< HEAD
+>>>>>>> parent of ee59dab (añadir)
+=======
 >>>>>>> parent of ee59dab (añadir)
             // 
             // Administrador

@@ -392,6 +392,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(1747, 310);
             this.dataGridView1.TabIndex = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -415,6 +416,12 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.SteelBlue;
             this.groupBox3.Controls.Add(this.button1);
+=======
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+>>>>>>> parent of ee59dab (añadir)
 =======
             // 
             // groupBox3
@@ -460,6 +467,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(292, 108);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.Window;
 <<<<<<< HEAD
@@ -471,6 +479,8 @@
 >>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
 =======
 >>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
+=======
+>>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
             this.btnEliminar.Name = "btnEliminar";
@@ -553,8 +563,11 @@
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button button1;
+=======
+>>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
     }
