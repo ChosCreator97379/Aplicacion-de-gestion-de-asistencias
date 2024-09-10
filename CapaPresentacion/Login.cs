@@ -32,7 +32,6 @@ namespace CapaPresentacion
                 // Abrir el nuevo formulario
                 Administrador Administrador = new Administrador();
                 Administrador.Show();
-                
 
                 // Cerrar el formulario de login
                 this.Hide();  // Esconder en lugar de cerrar para no terminar la aplicación
@@ -42,11 +41,6 @@ namespace CapaPresentacion
                 // Mensaje de error si la clave es incorrecta
                 MessageBox.Show("Clave incorrecta. Intente nuevamente.", "Error de autenticación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void Login_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
