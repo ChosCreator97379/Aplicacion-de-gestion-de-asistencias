@@ -129,12 +129,8 @@
             this.Hora.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Hora.Name = "Hora";
 <<<<<<< HEAD
-<<<<<<< HEAD
             this.Hora.ShowUpDown = true;
             this.Hora.Size = new System.Drawing.Size(94, 25);
-=======
-            this.Hora.Size = new System.Drawing.Size(124, 29);
->>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
 =======
             this.Hora.Size = new System.Drawing.Size(124, 29);
 >>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
@@ -383,11 +379,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(24, 94);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-<<<<<<< HEAD
             this.dataGridView1.Name = "dataGridView";
-=======
-            this.dataGridView1.Name = "dataGridView1";
->>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1747, 310);
             this.dataGridView1.TabIndex = 0;
@@ -475,9 +467,6 @@
 =======
             this.btnEliminar.Location = new System.Drawing.Point(219, 88);
 >>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
-<<<<<<< HEAD
->>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
-=======
 >>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
 =======
 >>>>>>> parent of ee59dab (añadir)
