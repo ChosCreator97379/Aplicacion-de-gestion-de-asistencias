@@ -64,6 +64,7 @@
     <Compile Include="Bienvenida.Designer.cs">
       <DependentUpon>Bienvenida.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Editar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +77,8 @@
     <Compile Include="EditarRegistro.Designer.cs">
       <DependentUpon>EditarRegistro.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> parent of ee59dab (añadir)
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,12 +102,15 @@
     <EmbeddedResource Include="Bienvenida.resx">
       <DependentUpon>Bienvenida.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Editar.resx">
       <DependentUpon>Editar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditarRegistro.resx">
       <DependentUpon>EditarRegistro.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> parent of ee59dab (añadir)
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,9 +151,6 @@
       <Project>{e39cd59c-5556-41ef-ae95-b07d428ff247}</Project>
       <Name>CapaNegocio</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\X.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

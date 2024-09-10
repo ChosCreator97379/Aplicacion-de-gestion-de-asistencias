@@ -14,7 +14,6 @@ namespace CapaPresentacion
     public partial class Registro_E_S : Form
     {
         private EmpleadoCN empleadoCN = new EmpleadoCN();
-        private AsistenciaCN asistenciaCN = new AsistenciaCN();
         public Registro_E_S()
         {
             InitializeComponent();
@@ -65,6 +64,7 @@ namespace CapaPresentacion
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+<<<<<<< HEAD
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -131,6 +131,8 @@ namespace CapaPresentacion
             {
                 MessageBox.Show("Por favor, seleccione una fila para editar.");
             }
+=======
+>>>>>>> parent of ee59dab (añadir)
         }
     }
 }

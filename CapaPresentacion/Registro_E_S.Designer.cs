@@ -50,11 +50,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnActualizar = new System.Windows.Forms.Button();
             this.btnBuscarRegistro = new System.Windows.Forms.Button();
             this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.txtTipoBusqueda = new System.Windows.Forms.ComboBox();
-            this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -62,7 +61,7 @@
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,17 +88,13 @@
             // inicioToolStripMenuItem
             // 
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-<<<<<<< HEAD
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
-=======
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.inicioToolStripMenuItem.Text = "Inicio";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.SteelBlue;
+            this.groupBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.groupBox1.Controls.Add(this.Hora);
             this.groupBox1.Controls.Add(this.Fecha);
             this.groupBox1.Controls.Add(this.txtTipoRegistro);
@@ -170,18 +165,13 @@
             // 
             // btnNuevo
             // 
-            this.btnNuevo.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnNuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnNuevo.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnNuevo.Location = new System.Drawing.Point(152, 267);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.btnNuevo.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnNuevo.Location = new System.Drawing.Point(114, 217);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(100, 28);
             this.btnNuevo.TabIndex = 12;
@@ -190,39 +180,28 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnGuardar.BackColor = System.Drawing.Color.Lime;
             this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnGuardar.Location = new System.Drawing.Point(44, 267);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.btnGuardar.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnGuardar.Location = new System.Drawing.Point(33, 217);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(100, 28);
             this.btnGuardar.TabIndex = 11;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnBuscar.BackColor = System.Drawing.Color.Yellow;
             this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnBuscar.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnBuscar.Location = new System.Drawing.Point(277, 62);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.btnBuscar.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btnBuscar.Location = new System.Drawing.Point(208, 50);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(100, 28);
             this.btnBuscar.TabIndex = 10;
@@ -278,16 +257,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.MidnightBlue;
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label5.Location = new System.Drawing.Point(305, 164);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.label5.ForeColor = System.Drawing.SystemColors.Window;
-            this.label5.Location = new System.Drawing.Point(229, 133);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 23);
             this.label5.TabIndex = 4;
@@ -296,16 +270,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.MidnightBlue;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label4.Location = new System.Drawing.Point(44, 164);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.label4.ForeColor = System.Drawing.SystemColors.Window;
-            this.label4.Location = new System.Drawing.Point(33, 133);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 23);
             this.label4.TabIndex = 3;
@@ -314,16 +283,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.MidnightBlue;
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label3.Location = new System.Drawing.Point(333, 113);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.label3.ForeColor = System.Drawing.SystemColors.Window;
-            this.label3.Location = new System.Drawing.Point(250, 92);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 23);
             this.label3.TabIndex = 2;
@@ -332,16 +296,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label2.Location = new System.Drawing.Point(44, 113);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.label2.ForeColor = System.Drawing.SystemColors.Window;
-            this.label2.Location = new System.Drawing.Point(33, 92);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 23);
             this.label2.TabIndex = 1;
@@ -350,16 +309,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label1.Location = new System.Drawing.Point(44, 64);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(33, 52);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 23);
             this.label1.TabIndex = 0;
@@ -367,12 +321,11 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.SteelBlue;
-            this.groupBox2.Controls.Add(this.btnActualizar);
+            this.groupBox2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.groupBox2.Controls.Add(this.btnBuscarRegistro);
             this.groupBox2.Controls.Add(this.txtBusqueda);
             this.groupBox2.Controls.Add(this.txtTipoBusqueda);
-            this.groupBox2.Controls.Add(this.dataGridView);
+            this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.groupBox2.Location = new System.Drawing.Point(16, 422);
@@ -384,35 +337,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Registro de Asistencias";
             // 
-            // btnActualizar
-            // 
-            this.btnActualizar.BackColor = System.Drawing.Color.MidnightBlue;
-            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnActualizar.Location = new System.Drawing.Point(310, 36);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
-            this.btnActualizar.TabIndex = 17;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = false;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
-            // 
             // btnBuscarRegistro
             // 
-            this.btnBuscarRegistro.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnBuscarRegistro.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnBuscarRegistro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBuscarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarRegistro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnBuscarRegistro.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnBuscarRegistro.Location = new System.Drawing.Point(1119, 43);
             this.btnBuscarRegistro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.btnBuscarRegistro.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnBuscarRegistro.Location = new System.Drawing.Point(839, 35);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.btnBuscarRegistro.Name = "btnBuscarRegistro";
             this.btnBuscarRegistro.Size = new System.Drawing.Size(100, 28);
             this.btnBuscarRegistro.TabIndex = 16;
@@ -445,9 +378,8 @@
             this.txtTipoBusqueda.TabIndex = 16;
             this.txtTipoBusqueda.Text = "Tipo de Busqueda";
             // 
-            // dataGridView
+            // dataGridView1
             // 
-<<<<<<< HEAD
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(24, 94);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -459,6 +391,7 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1747, 310);
             this.dataGridView1.TabIndex = 0;
+<<<<<<< HEAD
 =======
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -482,6 +415,12 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.SteelBlue;
             this.groupBox3.Controls.Add(this.button1);
+=======
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+>>>>>>> parent of ee59dab (añadir)
             this.groupBox3.Controls.Add(this.btnEditar);
             this.groupBox3.Controls.Add(this.btnEliminar);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -497,18 +436,13 @@
             // 
             // btnEditar
             // 
-            this.btnEditar.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnEditar.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnEditar.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnEditar.Location = new System.Drawing.Point(111, 108);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.btnEditar.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnEditar.Location = new System.Drawing.Point(83, 88);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(159, 130);
             this.btnEditar.TabIndex = 17;
@@ -518,14 +452,14 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.BackColor = System.Drawing.Color.DarkRed;
+            this.btnEliminar.BackColor = System.Drawing.Color.Red;
             this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnEliminar.Location = new System.Drawing.Point(292, 108);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+<<<<<<< HEAD
 =======
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.Window;
 <<<<<<< HEAD
@@ -537,6 +471,8 @@
 >>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
 =======
 >>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
+=======
+>>>>>>> parent of ee59dab (añadir)
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(155, 130);
             this.btnEliminar.TabIndex = 16;
@@ -561,13 +497,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(1827, 922);
-=======
-            this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
->>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -584,7 +515,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -618,10 +549,13 @@
         private System.Windows.Forms.Button btnBuscarRegistro;
         private System.Windows.Forms.TextBox txtBusqueda;
         private System.Windows.Forms.ComboBox txtTipoBusqueda;
-        private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button button1;
+=======
+>>>>>>> parent of ee59dab (añadir)
     }
 }
