@@ -65,6 +65,8 @@ namespace CapaPresentacion
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+            Bienvenida Bienvenida = new Bienvenida();
+            Bienvenida.Show();
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -86,8 +88,7 @@ namespace CapaPresentacion
                 DataTable dt = asistenciaCN.ObtenerAsistencias();
                 if (dt != null && dt.Rows.Count > 0)
                 {
-                    dataGridView.AutoGenerateColumns = true; // Deshabilitar la autogeneración de columnas
-                    dataGridView.DataSource = dt; // Asignar el DataTable al DataGridView
+                    dataGridView.DataSource = dt;
                 }
                 else
                 {
@@ -103,34 +104,7 @@ namespace CapaPresentacion
 
         private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            // Asegúrate de que se ha seleccionado una fila
-            if (e.RowIndex >= 0)
-            {
-                // Obtén el ID del registro seleccionado. Suponiendo que el ID está en la primera columna.
-                int id = Convert.ToInt32(dataGridView.Rows[e.RowIndex].Cells[0].Value);
 
-                // Abre el formulario de edición y pasa el ID del registro
-                EditarRegistro editarFormulario = new EditarRegistro(id);
-                editarFormulario.ShowDialog();
-            }
-        }
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
-            if (dataGridView.SelectedRows.Count > 0)
-            {
-                // Obtener el ID de la fila seleccionada
-                int id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells["ID"].Value);
-
-                // Crear una nueva instancia del formulario de edición, pasando el ID del registro
-                EditarRegistro editarRegistro = new EditarRegistro(id);
-
-                // Mostrar el formulario de edición
-                editarRegistro.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Por favor, seleccione una fila para editar.");
-            }
         }
     }
 }
