@@ -45,6 +45,7 @@ namespace CapaPresentacion
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         private void registroDeEntradaYSalidaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -62,6 +63,8 @@ namespace CapaPresentacion
         {
             this.Close(); 
         }
+=======
+>>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
 =======

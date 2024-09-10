@@ -66,6 +66,7 @@
     </Compile>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Editar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +79,8 @@
     <Compile Include="EditarRegistro.Designer.cs">
       <DependentUpon>EditarRegistro.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
 =======
@@ -107,12 +110,15 @@
     </EmbeddedResource>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="Editar.resx">
       <DependentUpon>Editar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditarRegistro.resx">
       <DependentUpon>EditarRegistro.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
 =======

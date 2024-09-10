@@ -30,8 +30,11 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
 =======
+=======
+>>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -50,6 +53,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ee59dab (añadir)
+=======
 >>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
@@ -499,6 +505,7 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
@@ -514,6 +521,8 @@
             this.dataGridView.Size = new System.Drawing.Size(1310, 582);
             this.dataGridView.TabIndex = 0;
 =======
+=======
+>>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -548,6 +557,9 @@
             this.inicioToolStripMenuItem.Text = "Inicio";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ee59dab (añadir)
+=======
 >>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)

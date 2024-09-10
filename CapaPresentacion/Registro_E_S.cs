@@ -66,6 +66,7 @@ namespace CapaPresentacion
             this.Close();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -132,6 +133,8 @@ namespace CapaPresentacion
             {
                 MessageBox.Show("Por favor, seleccione una fila para editar.");
             }
+=======
+>>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
 =======
