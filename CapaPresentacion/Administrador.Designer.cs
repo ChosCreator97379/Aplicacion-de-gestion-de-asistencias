@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
 =======
 =======
@@ -59,6 +60,9 @@
 >>>>>>> parent of ee59dab (añadir)
 =======
 >>>>>>> parent of ee59dab (añadir)
+=======
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+>>>>>>> parent of f0509a1 (Color)
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
             this.HoraEditar = new System.Windows.Forms.DateTimePicker();
@@ -264,6 +268,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.DarkSlateGray;
+<<<<<<< HEAD
             this.groupBox2.Controls.Add(this.button6);
             this.groupBox2.Controls.Add(this.HoraEditar);
             this.groupBox2.Controls.Add(this.FechaEditar);
@@ -279,6 +284,16 @@
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label10);
+=======
+            this.groupBox2.Controls.Add(this.btnEliminar);
+            this.groupBox2.Controls.Add(this.btnEditar);
+            this.groupBox2.Controls.Add(this.btnAñadir);
+            this.groupBox2.Controls.Add(this.btnActualizar);
+            this.groupBox2.Controls.Add(this.btnBuscarRegistro);
+            this.groupBox2.Controls.Add(this.txtBusqueda);
+            this.groupBox2.Controls.Add(this.txtTipoBusqueda);
+            this.groupBox2.Controls.Add(this.dataGridView);
+>>>>>>> parent of f0509a1 (Color)
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.groupBox2.Location = new System.Drawing.Point(687, 36);
@@ -290,6 +305,7 @@
             // 
             // button6
             // 
+<<<<<<< HEAD
             this.button6.BackColor = System.Drawing.Color.Yellow;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -301,24 +317,68 @@
             this.button6.TabIndex = 17;
             this.button6.Text = "Buscar";
             this.button6.UseVisualStyleBackColor = false;
+=======
+            this.btnEliminar.BackColor = System.Drawing.Color.Red;
+            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnEliminar.Location = new System.Drawing.Point(1245, 35);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 20;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+>>>>>>> parent of f0509a1 (Color)
             // 
             // HoraEditar
             // 
+<<<<<<< HEAD
             this.HoraEditar.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.HoraEditar.Location = new System.Drawing.Point(239, 173);
             this.HoraEditar.Name = "HoraEditar";
             this.HoraEditar.Size = new System.Drawing.Size(94, 25);
             this.HoraEditar.TabIndex = 15;
+=======
+            this.btnEditar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnEditar.Location = new System.Drawing.Point(1164, 35);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(75, 23);
+            this.btnEditar.TabIndex = 19;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+>>>>>>> parent of f0509a1 (Color)
             // 
             // FechaEditar
             // 
+<<<<<<< HEAD
             this.FechaEditar.Location = new System.Drawing.Point(33, 173);
             this.FechaEditar.Name = "FechaEditar";
             this.FechaEditar.Size = new System.Drawing.Size(200, 25);
             this.FechaEditar.TabIndex = 14;
+=======
+            this.btnAñadir.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAñadir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAñadir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAñadir.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnAñadir.Location = new System.Drawing.Point(1083, 35);
+            this.btnAñadir.Name = "btnAñadir";
+            this.btnAñadir.Size = new System.Drawing.Size(75, 23);
+            this.btnAñadir.TabIndex = 18;
+            this.btnAñadir.Text = "Añadir";
+            this.btnAñadir.UseVisualStyleBackColor = false;
+            this.btnAñadir.Click += new System.EventHandler(this.button1_Click);
+>>>>>>> parent of f0509a1 (Color)
             // 
             // btnNuevoEditar
             // 
+<<<<<<< HEAD
             this.btnNuevoEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnNuevoEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNuevoEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -330,9 +390,24 @@
             this.btnNuevoEditar.TabIndex = 12;
             this.btnNuevoEditar.Text = "Nuevo";
             this.btnNuevoEditar.UseVisualStyleBackColor = false;
+=======
+            this.btnActualizar.BackColor = System.Drawing.Color.Lime;
+            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnActualizar.Location = new System.Drawing.Point(310, 36);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnActualizar.TabIndex = 17;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+>>>>>>> parent of f0509a1 (Color)
             // 
             // btnGuardarEditar
             // 
+<<<<<<< HEAD
             this.btnGuardarEditar.BackColor = System.Drawing.Color.Lime;
             this.btnGuardarEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardarEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -476,6 +551,19 @@
             this.btnBuscarEmpleado.TabIndex = 16;
             this.btnBuscarEmpleado.Text = "Buscar";
             this.btnBuscarEmpleado.UseVisualStyleBackColor = false;
+=======
+            this.btnBuscarRegistro.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBuscarRegistro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscarRegistro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarRegistro.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnBuscarRegistro.Location = new System.Drawing.Point(839, 35);
+            this.btnBuscarRegistro.Name = "btnBuscarRegistro";
+            this.btnBuscarRegistro.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarRegistro.TabIndex = 16;
+            this.btnBuscarRegistro.Text = "Buscar";
+            this.btnBuscarRegistro.UseVisualStyleBackColor = false;
+>>>>>>> parent of f0509a1 (Color)
             // 
             // txtBusqueda
             // 

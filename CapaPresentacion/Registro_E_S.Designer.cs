@@ -166,8 +166,12 @@
             this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevo.ForeColor = System.Drawing.SystemColors.WindowText;
+<<<<<<< HEAD
             this.btnNuevo.Location = new System.Drawing.Point(152, 267);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.btnNuevo.Location = new System.Drawing.Point(114, 217);
+>>>>>>> parent of f0509a1 (Color)
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(100, 28);
             this.btnNuevo.TabIndex = 12;
@@ -181,8 +185,12 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.WindowText;
+<<<<<<< HEAD
             this.btnGuardar.Location = new System.Drawing.Point(44, 267);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.btnGuardar.Location = new System.Drawing.Point(33, 217);
+>>>>>>> parent of f0509a1 (Color)
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(100, 28);
             this.btnGuardar.TabIndex = 11;
@@ -196,8 +204,12 @@
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.ForeColor = System.Drawing.SystemColors.WindowText;
+<<<<<<< HEAD
             this.btnBuscar.Location = new System.Drawing.Point(277, 62);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.btnBuscar.Location = new System.Drawing.Point(208, 50);
+>>>>>>> parent of f0509a1 (Color)
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(100, 28);
             this.btnBuscar.TabIndex = 10;
@@ -256,8 +268,12 @@
             this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
+<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(305, 164);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label5.Location = new System.Drawing.Point(229, 133);
+>>>>>>> parent of f0509a1 (Color)
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 23);
             this.label5.TabIndex = 4;
@@ -269,8 +285,12 @@
             this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(44, 164);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label4.Location = new System.Drawing.Point(33, 133);
+>>>>>>> parent of f0509a1 (Color)
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 23);
             this.label4.TabIndex = 3;
@@ -282,8 +302,12 @@
             this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(333, 113);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label3.Location = new System.Drawing.Point(250, 92);
+>>>>>>> parent of f0509a1 (Color)
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 23);
             this.label3.TabIndex = 2;
@@ -295,8 +319,12 @@
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(44, 113);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label2.Location = new System.Drawing.Point(33, 92);
+>>>>>>> parent of f0509a1 (Color)
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 23);
             this.label2.TabIndex = 1;
@@ -308,8 +336,12 @@
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(44, 64);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label1.Location = new System.Drawing.Point(33, 52);
+>>>>>>> parent of f0509a1 (Color)
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 23);
             this.label1.TabIndex = 0;
@@ -318,6 +350,10 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.DarkSlateGray;
+<<<<<<< HEAD
+=======
+            this.groupBox2.Controls.Add(this.btnActualizar);
+>>>>>>> parent of f0509a1 (Color)
             this.groupBox2.Controls.Add(this.btnBuscarRegistro);
             this.groupBox2.Controls.Add(this.txtBusqueda);
             this.groupBox2.Controls.Add(this.txtTipoBusqueda);
@@ -333,6 +369,24 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Registro de Asistencias";
             // 
+<<<<<<< HEAD
+=======
+            // btnActualizar
+            // 
+            this.btnActualizar.BackColor = System.Drawing.Color.Lime;
+            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnActualizar.Location = new System.Drawing.Point(310, 36);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnActualizar.TabIndex = 17;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+>>>>>>> parent of f0509a1 (Color)
             // btnBuscarRegistro
             // 
             this.btnBuscarRegistro.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -340,8 +394,12 @@
             this.btnBuscarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarRegistro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarRegistro.ForeColor = System.Drawing.SystemColors.WindowText;
+<<<<<<< HEAD
             this.btnBuscarRegistro.Location = new System.Drawing.Point(1119, 43);
             this.btnBuscarRegistro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.btnBuscarRegistro.Location = new System.Drawing.Point(839, 35);
+>>>>>>> parent of f0509a1 (Color)
             this.btnBuscarRegistro.Name = "btnBuscarRegistro";
             this.btnBuscarRegistro.Size = new System.Drawing.Size(100, 28);
             this.btnBuscarRegistro.TabIndex = 16;
@@ -407,6 +465,7 @@
             // 
             // groupBox3
             // 
+<<<<<<< HEAD
             this.groupBox3.BackColor = System.Drawing.Color.SteelBlue;
             this.groupBox3.Controls.Add(this.button1);
 =======
@@ -427,6 +486,9 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
 >>>>>>> parent of ee59dab (añadir)
+=======
+            this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+>>>>>>> parent of f0509a1 (Color)
             this.groupBox3.Controls.Add(this.btnEditar);
             this.groupBox3.Controls.Add(this.btnEliminar);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -447,8 +509,12 @@
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.SystemColors.WindowText;
+<<<<<<< HEAD
             this.btnEditar.Location = new System.Drawing.Point(111, 108);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.btnEditar.Location = new System.Drawing.Point(83, 88);
+>>>>>>> parent of f0509a1 (Color)
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(159, 130);
             this.btnEditar.TabIndex = 17;
@@ -463,6 +529,7 @@
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.WindowText;
+<<<<<<< HEAD
             this.btnEliminar.Location = new System.Drawing.Point(292, 108);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 <<<<<<< HEAD
@@ -473,6 +540,8 @@
 <<<<<<< HEAD
             this.btnEliminar.Location = new System.Drawing.Point(217, 88);
 =======
+=======
+>>>>>>> parent of f0509a1 (Color)
             this.btnEliminar.Location = new System.Drawing.Point(219, 88);
 >>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
 >>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
@@ -507,7 +576,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1827, 922);
+=======
+            this.ClientSize = new System.Drawing.Size(1370, 749);
+>>>>>>> parent of f0509a1 (Color)
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

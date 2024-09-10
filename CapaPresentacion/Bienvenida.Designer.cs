@@ -30,10 +30,16 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.registroDeEntradaYSalidaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
+>>>>>>> parent of f0509a1 (Color)
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.registroDeEntradaYSalidaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.administradorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -58,12 +64,37 @@
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
+<<<<<<< HEAD
             // registroDeEntradaYSalidaToolStripMenuItem
             // 
             this.registroDeEntradaYSalidaToolStripMenuItem.Name = "registroDeEntradaYSalidaToolStripMenuItem";
             this.registroDeEntradaYSalidaToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.registroDeEntradaYSalidaToolStripMenuItem.Text = "Registro de Entrada y Salida";
             this.registroDeEntradaYSalidaToolStripMenuItem.Click += new System.EventHandler(this.registroDeEntradaYSalidaToolStripMenuItem_Click);
+=======
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label1.Location = new System.Drawing.Point(233, 93);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(883, 55);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Bienvenido al Software de Administracion";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.X;
+            this.pictureBox1.Location = new System.Drawing.Point(482, 230);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(350, 350);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+>>>>>>> parent of f0509a1 (Color)
             // 
             // administradorToolStripMenuItem
             // 
@@ -72,8 +103,9 @@
             this.administradorToolStripMenuItem.Text = "Administrador";
             this.administradorToolStripMenuItem.Click += new System.EventHandler(this.administradorToolStripMenuItem_Click);
             // 
-            // label1
+            // salirToolStripMenuItem
             // 
+<<<<<<< HEAD
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -93,6 +125,12 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+=======
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+>>>>>>> parent of f0509a1 (Color)
             // 
             // Bienvenida
             // 
