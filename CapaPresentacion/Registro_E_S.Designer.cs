@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,6 +57,7 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -126,7 +128,12 @@
             this.Hora.Location = new System.Drawing.Point(508, 213);
             this.Hora.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Hora.Name = "Hora";
+<<<<<<< HEAD
+            this.Hora.ShowUpDown = true;
+            this.Hora.Size = new System.Drawing.Size(94, 25);
+=======
             this.Hora.Size = new System.Drawing.Size(124, 29);
+>>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
             this.Hora.TabIndex = 15;
             this.Hora.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
@@ -372,14 +379,54 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(24, 94);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Name = "dataGridView";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1747, 310);
             this.dataGridView1.TabIndex = 0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dataGridView.Location = new System.Drawing.Point(18, 76);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView.Size = new System.Drawing.Size(1310, 252);
+            this.dataGridView.TabIndex = 0;
+            this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
+>>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.SteelBlue;
+            this.groupBox3.Controls.Add(this.button1);
+=======
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+>>>>>>> parent of ee59dab (añadir)
+=======
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+>>>>>>> parent of ee59dab (añadir)
+=======
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+>>>>>>> parent of ee59dab (añadir)
             this.groupBox3.Controls.Add(this.btnEditar);
             this.groupBox3.Controls.Add(this.btnEliminar);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -407,6 +454,7 @@
             this.btnEditar.TabIndex = 17;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnEliminar
             // 
@@ -417,11 +465,42 @@
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnEliminar.Location = new System.Drawing.Point(292, 108);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD
+            this.btnEliminar.Location = new System.Drawing.Point(217, 88);
+=======
+            this.btnEliminar.Location = new System.Drawing.Point(219, 88);
+>>>>>>> f0509a19b00d2687005c4e36fdfd38d5333a4193
+>>>>>>> ee59dab801548a3f8ff59e207de555034c5e210f
+=======
+>>>>>>> parent of ee59dab (añadir)
+=======
+>>>>>>> parent of ee59dab (añadir)
+=======
+>>>>>>> parent of ee59dab (añadir)
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(155, 130);
             this.btnEliminar.TabIndex = 16;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LimeGreen;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Window;
+            this.button1.Location = new System.Drawing.Point(348, 89);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(152, 106);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Descargar Registro (Excel)";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // Registro_E_S
             // 
@@ -482,5 +561,16 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button button1;
+=======
+>>>>>>> parent of ee59dab (añadir)
+=======
+>>>>>>> parent of ee59dab (añadir)
+=======
+>>>>>>> parent of ee59dab (añadir)
     }
 }

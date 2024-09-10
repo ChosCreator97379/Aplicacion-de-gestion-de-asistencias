@@ -43,5 +43,31 @@ namespace CapaPresentacion
         {
 
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        private void registroDeEntradaYSalidaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Registro_E_S Registro_E_S = new Registro_E_S();
+            Registro_E_S.Show();
+        }
+
+        private void administradorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Login Login = new Login();
+            Login.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close(); 
+        }
+=======
+>>>>>>> parent of ee59dab (añadir)
+=======
+>>>>>>> parent of ee59dab (añadir)
+=======
+>>>>>>> parent of ee59dab (añadir)
     }
 }
